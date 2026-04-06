@@ -49,6 +49,8 @@ function Hero() {
 
     console.log(result.data);
     setLoading(false);
+
+    router.push('/project/'+projectId);
   }
 
   return (
